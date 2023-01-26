@@ -11,7 +11,16 @@ go install -v github.com/alpkeskin/fjwt@latest
 ## Usage
 
 ```
-fjwt eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+fjwt eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.mAHLIQfIMpXcoErtJMEeH2eFX93iC3uzbkgrj72OvtY -w WORDLIST_PATH 
+```
+
+### Output
+```
+=====================================
+[FOUND] Secret: securepsw1
+Attempts: 815176
+Elapsed: 2s
+=====================================
 ```
 
 ### `--help`
